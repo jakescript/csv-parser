@@ -1,11 +1,10 @@
 {
   "name": "csv-parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "very simple csv parser",
+  "main": "parser.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
