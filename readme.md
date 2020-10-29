@@ -12,7 +12,7 @@ writes JSON file to path
 ## Installation
 
 ```bash
-npm install foobar
+git clone https://github.com/jakescript/csv-parser.git
 ```
 
 ## Usage
