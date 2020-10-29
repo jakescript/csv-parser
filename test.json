@@ -1,0 +1,61 @@
+{
+ "length": 8,
+ "data": [
+  {
+   "subject": "class 1",
+   "startdate": "4/10/2017",
+   "enddate": "4/10/2017",
+   "starttime": "7:40",
+   "endtime": "8:40"
+  },
+  {
+   "subject": "class 2",
+   "startdate": "4/10/2017",
+   "enddate": "4/10/2017",
+   "starttime": "8:45",
+   "endtime": "9:45"
+  },
+  {
+   "subject": "class 3",
+   "startdate": "4/10/2017",
+   "enddate": "4/10/2017",
+   "starttime": "9:50",
+   "endtime": "12:0"
+  },
+  {
+   "subject": "lunch",
+   "startdate": "4/10/2017",
+   "enddate": "4/10/2017",
+   "starttime": "10:54",
+   "endtime": "11:35"
+  },
+  {
+   "subject": "class 5",
+   "startdate": "4/10/2017",
+   "enddate": "4/10/2017",
+   "starttime": "11:40",
+   "endtime": "12:0"
+  },
+  {
+   "subject": "class 6",
+   "startdate": "4/10/2017",
+   "enddate": "4/10/2017",
+   "starttime": "12:45",
+   "endtime": "1:45"
+  },
+  {
+   "subject": "class 7",
+   "startdate": "4/10/2017",
+   "enddate": "4/10/2017",
+   "starttime": "1:50",
+   "endtime": "2:50"
+  },
+  {
+   "subject": "class 4",
+   "startdate": "4/11/2017",
+   "enddate": "4/11/2017",
+   "starttime": "7:40",
+   "endtime": "8:40"
+  }
+ ]
+}

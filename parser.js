@@ -1,9 +1,6 @@
 const fs = require("fs");
 
-const csv = fs.readFileSync("test.csv").toString();
-
-
-function csvToJson(csv, delimiter){
+function csvToJson(csv, delimiter = ","){
   const csvArr = csv.split("\n");
   const data = csvArr.map(row => {
     return row.toLowerCase().split(delimiter);
@@ -28,4 +25,17 @@ function csvToJson(csv, delimiter){
   return results;
 };
 
-console.log(csvToJson(csv, ","));
+
+
+function writeCsvToJson(obj, location){
+  fs.writeFile(location,JSON.stringify(obj, null, 1), (err) => {
+    if(err){
+      console.log("Error")
+    }else{
+      console.log(`Saved File To ${location}`)
+    }
+  })
+}
+
+exports.csvToJson = csvToJson;
+exports.writeCsvToJson = writeCsvToJson;
